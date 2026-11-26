@@ -1,0 +1,15 @@
+# secrets and personal data
+.env
+*.tmp
+*.dpapi
+log.txt
+log.txt.*
+_backup/
+config.json
+profiles/
+
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/

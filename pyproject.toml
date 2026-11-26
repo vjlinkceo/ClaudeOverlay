@@ -1,0 +1,28 @@
+[project]
+name = "chatgpt-overlay"
+version = "3.2.0"
+description = "An always-on-top Windows window that listens to a call or lecture, finds the question and answers with OpenAI or Anthropic"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Vladfront1" }]
+requires-python = ">=3.12"
+classifiers = [
+    "License :: Other/Proprietary License",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.12",
+    "Private :: Do Not Upload",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.format]
+line-ending = "lf"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+
+[tool.ruff.lint.per-file-ignores]
+# stdout/stderr replacements under pythonw.exe stay open for the whole process lifetime
+"overlay/bootstrap.py" = ["SIM115"]

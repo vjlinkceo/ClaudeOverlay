@@ -1,0 +1,19 @@
+openai==2.54.0
+anthropic==1.13.0
+faster-whisper==1.2.1
+# For the speech detector. 1.22+ enumerates hardware devices on import for ~10 s while holding the GIL,
+# which freezes the window on the first Listen.
+onnxruntime==1.21.1; python_version < "3.14"
+# Python 3.14 has no wheels for 1.21.1. Newer runtimes may take longer on the first Listen.
+onnxruntime==1.31.0; python_version >= "3.14"
+soundcard==0.4.6
+numpy==2.5.4
+mss==10.2.0
+pillow==12.3.0
+# The window (Qt), answer rendering and formula images.
+PySide6-Essentials==6.12.0
+mistune==3.3.4
+pygments==2.21.0
+matplotlib==3.11.2
+# Profile documents: PDF to text.
+pypdf==6.20.1

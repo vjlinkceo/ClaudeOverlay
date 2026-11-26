@@ -1,0 +1,67 @@
+Claude Overlay Personal Use License
+
+Copyright (c) 2026 Vladfront1. All rights reserved.
+
+This software and its source code ("the Software") are the property of the
+copyright holder. The Software is made available for personal use only, on
+the terms below. By downloading, copying or using the Software you agree to
+them.
+
+1. What you may do
+
+   You may install and run the Software on devices you own or control, for
+   your own personal, non-commercial purposes. You may read and modify the
+   source code for that same purpose.
+
+2. What you may not do
+
+   Without the prior written permission of the copyright holder you may not:
+
+   a) copy, publish, upload, share, sell, rent, lend, sublicense or otherwise
+      distribute the Software, in whole or in part, in original or modified
+      form, to any other person or organization, by any means, including
+      posting it or a fork of it on a code hosting service, bundling it with
+      other software, or offering it as a service;
+   b) use the Software, or any part of it, for commercial purposes or in a
+      business, or to build a product or service that competes with it;
+   c) remove or change this license, the copyright notice, or any notice of
+      the third-party components.
+
+3. Third-party components
+
+   The Software uses libraries and models that belong to their respective
+   authors and come under their own licenses (among them PySide6 under the
+   LGPL, faster-whisper, Silero VAD, mistune, Pygments, matplotlib, pypdf, the
+   Anthropic SDK). This license does not restrict your rights under those
+   licenses and does not grant any rights to those components beyond them.
+
+4. Claude and the Anthropic API
+
+   The Software sends requests to the Anthropic API with your own API key.
+   You are responsible for your account, its costs, and for following
+   Anthropic's terms of use. "Claude" is a trademark of Anthropic; the
+   copyright holder of this Software is not affiliated with Anthropic.
+
+5. No warranty
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+   THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
+   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+6. Your responsibility
+
+   You are responsible for how you use the Software: for telling people when
+   they are being recorded where the law or courtesy requires it, and for not
+   using it where outside help is forbidden.
+
+7. Termination
+
+   This license ends automatically if you break any of its terms. When it
+   ends, you must stop using the Software and delete all copies.
+
+8. Permissions
+
+   Requests for permission to distribute or to use the Software commercially
+   go to the copyright holder through the project's GitHub page.
